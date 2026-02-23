@@ -7,7 +7,7 @@ def signUp(e):
     username = document.getElementById('inputuser').value
     password = document.getElementById('inputpass').value
 
-    if len(password) == 0 or len(usernamne) == 0:
+    if len(password) == 0 or len(username) == 0:
             display(f'please complete all fields.', target='output')
         
     elif len(username) >= 7 and len(password) >=10 and password.isdigit() == False and password.isalpha() == False:
@@ -31,6 +31,7 @@ def signUp(e):
         else:
 
             pass
+
 
 
 
